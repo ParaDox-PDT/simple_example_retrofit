@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       isLoading = false;
     });
-    print("DATAAAA -----------${ads.toJson()}");
+    print("DATAAAA -----------${ads.toJson()  }");
   }
 
   @override
